@@ -23,12 +23,10 @@ class Ui(QtWidgets.QMainWindow):
 
     def entry(self):
         car_number = self.car_number_input.text()
-        # Implement your entry logic here
         self.result_label.setText(f"Entry for car {car_number}")
 
     def exit(self):
         car_number = self.car_number_input.text()
-        # Implement your exit logic here
         self.result_label.setText(f"Exit for car {car_number}")
 
 def main():
